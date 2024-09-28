@@ -12,7 +12,7 @@ func main() {
 
 	// Declaring variables using short declaration operator
 	favouriteNumber := 2
-	myName, universityCgpa := "Kaviraj", 8.8
+	myName, _, universityCgpa := "Kaviraj", 0, 8.8
 	fmt.Println(favouriteNumber, myName, universityCgpa)
 
 }
